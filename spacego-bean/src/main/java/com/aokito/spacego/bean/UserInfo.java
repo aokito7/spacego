@@ -1,4 +1,4 @@
-package com.aokito.spacego.usermanage.bean;
+package com.aokito.spacego.bean;
 
 import javax.persistence.Column;
 import javax.persistence.Id;

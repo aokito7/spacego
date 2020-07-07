@@ -8,6 +8,8 @@
       <configuration>
         <webroots />
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/spacego-common-util/src/main/java" />
+          <root url="file://$MODULE_DIR$/spacego-common-util/src/main/resources" />
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
@@ -21,6 +23,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spacego-common-util/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spacego-common-util/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/spacego-common-util/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/spacego-common-util/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />

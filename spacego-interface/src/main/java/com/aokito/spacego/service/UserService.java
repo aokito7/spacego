@@ -1,6 +1,6 @@
-package com.aokito.spacego.usermanage.service;
+package com.aokito.spacego.service;
 
-import com.aokito.spacego.usermanage.bean.UserInfo;
+import com.aokito.spacego.bean.UserInfo;
 
 public interface UserService {
     public void addUserInfo(UserInfo userInfo);

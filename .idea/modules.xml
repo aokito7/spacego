@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spacego.iml" filepath="$PROJECT_DIR$/spacego.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-bean/spacego-bean.iml" filepath="$PROJECT_DIR$/spacego-bean/spacego-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-common-util/spacego-common-util.iml" filepath="$PROJECT_DIR$/spacego-common-util/spacego-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-interface/spacego-interface.iml" filepath="$PROJECT_DIR$/spacego-interface/spacego-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-parent/spacego-parent.iml" filepath="$PROJECT_DIR$/spacego-parent/spacego-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-service-util/spacego-service-util.iml" filepath="$PROJECT_DIR$/spacego-service-util/spacego-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/spacego-usermanage/spacego-usermanage.iml" filepath="$PROJECT_DIR$/spacego-usermanage/spacego-usermanage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spacego-web-util/spacego-web-util.iml" filepath="$PROJECT_DIR$/spacego-web-util/spacego-web-util.iml" />
     </modules>
   </component>
 </project>

@@ -6,19 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spacego-service-util" />
+        <module name="spacego-interface" />
         <module name="spacego-usermanage" />
-        <module name="spacego" />
+        <module name="spacego-manage-web" />
+        <module name="spacego-bean" />
+        <module name="spacego-web-util" />
+        <module name="spacego-common-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spacego" target="1.8" />
+      <module name="spacego-bean" target="1.8" />
+      <module name="spacego-common-util" target="1.8" />
+      <module name="spacego-interface" target="1.5" />
+      <module name="spacego-manage-web" target="1.8" />
+      <module name="spacego-parent" target="1.8" />
+      <module name="spacego-service-util" target="1.8" />
       <module name="spacego-usermanage" target="1.8" />
+      <module name="spacego-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spacego" options="-parameters" />
+      <module name="spacego-bean" options="-parameters" />
+      <module name="spacego-common-util" options="-parameters" />
+      <module name="spacego-interface" options="" />
+      <module name="spacego-manage-web" options="-parameters" />
+      <module name="spacego-parent" options="-parameters" />
+      <module name="spacego-service-util" options="-parameters" />
       <module name="spacego-usermanage" options="-parameters" />
+      <module name="spacego-web-util" options="-parameters" />
     </option>
   </component>
 </project>

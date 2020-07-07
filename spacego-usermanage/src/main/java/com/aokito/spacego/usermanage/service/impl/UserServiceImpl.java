@@ -1,7 +1,7 @@
 package com.aokito.spacego.usermanage.service.impl;
 
-import com.aokito.spacego.usermanage.bean.UserInfo;
-import com.aokito.spacego.usermanage.service.UserService;
+import com.aokito.spacego.bean.UserInfo;
+import com.aokito.spacego.service.UserService;
 import com.aokito.spacego.usermanage.mapper.UserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
